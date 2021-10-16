@@ -1,0 +1,432 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+.banner{
+    text-align: center;
+
+    width: 100%;
+    background-color: #7fc310;
+
+}
+
+.container1{
+    background-color: #f8f9fa;
+    width: 100%;
+
+}
+
+.container1-1{
+    padding-left: 20px;
+
+}
+
+
+.logo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 20%;
+    height: 70px;
+    width: 200px;
+}
+
+
+.navbar-brand{
+    text-align: center;
+}
+.navbar{
+    padding-top: unset;
+    padding-bottom: unset;
+}
+
+.navbar-brand span{
+    font-size: 18px;
+}
+
+.form-control{
+    width: 650px;
+    height: 50px;
+}
+
+
+.opa:hover{
+    background-color: red;
+}
+
+
+
+
+#navbarDarkDropdownMenuLink{
+    margin-top: 10px;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image:unset;
+}
+
+.container2{
+    height: 500px;
+    margin-top: 20px;
+    padding-left: 110px;
+}
+
+.left{
+    float: left;
+    width: 25%;    
+}
+
+.active{
+    text-align: center;
+    
+}
+
+.list-group-item.active{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #7fc310;
+}
+
+.list-group-item{
+    margin-left: unset;
+    border: unset;
+    background-color: #f8f9fa;
+}
+
+
+.list-group-item-action.first:hover {
+    background-color: tomato;
+}
+
+
+.first{
+    padding-left: 50px;
+}
+
+.right{
+    cursor: pointer;
+    width: 73%;
+    float: right;
+}
+
+.container3{
+    padding-left: 280px;
+   text-align: center;
+    width: 90%;
+}
+div.col{
+    cursor: pointer;
+    padding: unset;
+    margin: unset;
+    padding-right: 5px;
+    margin-left: unset;
+    padding-left: unset;
+}
+
+.container4{
+    margin-top: 40px;
+
+}
+
+.container4 .container .row{
+    margin-left: unset;
+    margin-right: unset;
+}
+
+.name{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    text-align: center;
+    background-color: #7fc310;
+}
+
+.col1{
+    background-color: #f8f9fa;
+    cursor: pointer;
+    text-align: center;
+    padding: unset;
+    width: calc(100%/5);
+}
+
+
+.col1 img{
+    padding: unset;
+    padding-top: 10px;
+    width: 90%;
+}
+
+.more{
+    cursor: pointer;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    width: 140px;
+    margin: 10px auto;    
+    display: inline-block;
+    box-shadow: 2px 3px 5px #ccc;
+    background-image: linear-gradient(to right, #ff9800, #F7695D);
+}
+
+
+.more:hover{
+    opacity: 0.8;
+}
+
+.container5{
+    margin-top: 40px;                        
+}
+
+.col2{
+    background-color: #f8f9fa;
+    cursor: pointer;
+    text-align: center;
+    padding: unset;
+    width: calc(100%/5);
+}
+.col2 img{
+    padding: unset;
+    padding-top: 10px;
+    width: 90%;
+}
+
+.row{
+    --bs-gutter-x: 18.5rem;
+}
+
+.container6 .container .row{
+    margin-left: unset;
+    margin-right: unset;
+}
+
+
+.container6{
+    margin-top: 40px;
+
+}
+
+.col3{
+    position: relative;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    text-align: center;
+    padding: unset;
+    width: calc(100%/5);
+    
+}
+.col3 img{
+    padding: unset;
+    padding-top: 10px;
+    width: 90%;
+}
+
+
+
+div.col3{
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+div.col2{
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+.g{
+    text-align: center;
+}
+div.col1{
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+
+div.col3:hover{
+    box-sizing: border-box;
+    border: 1px solid rgb(128, 120, 120);
+}
+
+div.col2:hover{
+    box-sizing: border-box;
+    border: 1px solid rgb(128, 120, 120);
+    
+}
+
+.row p{
+    padding-top: 10px;
+}
+
+div.col1:hover{
+    box-sizing: border-box;
+    border: 1px solid rgb(128, 120, 120);
+}
+
+.container6 .col3 p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container5 .col2 p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container4 .col1 p{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+body > div.container5 > div > div.row.row-cols-2{
+    --bs-gutter-x: 1.5rem; 
+}
+
+body > div.container5 > div > div.row.row-cols-2{
+    --bs-gutter-x: 0.25rem; 
+}
+
+
+.container6 .container .row{
+    margin-left: unset;
+    margin-right: unset;
+}
+
+
+.top{
+    text-align: center;
+    background-color: rgb(109, 96, 96);
+    color: white;
+    height: 35px;
+    width: 40px;
+    box-sizing: border-box;
+    position: absolute;
+    font-size: 20px;
+    border-radius: 20%;
+    top:8px;
+    left:35px;
+}
+
+.fi .top{
+    background-color: red;
+}
+
+.se .top{
+    background-color: rgb(212, 76, 26);
+}
+
+.th .top{
+    background-color: rgb(160, 146, 65);
+}
+
+
+.footder{
+    margin-top: 100px;
+    padding-left: 50px;
+    width: 100%;
+    background-color: #f8f9fa;
+
+}
+
+.col-2{
+    width: 18%;
+}
+
+
+
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+ 
+    line-height: 3;
+}
+
+.cp_right{
+    text-align: center;
+    margin-left: unset;
+    margin-right: unset;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+.h5, h5 {
+    font-size: 18px;
+
+    font-weight: bold;
+}
+
+
+
+
+.price, .realprice{
+    margin: unset;
+    padding: unset;
+    text-align: right;
+    
+}
+
+
+.price{
+    font-weight: bolder;
+    color: tomato;
+    font-size:larger
+}
+
+.realprice{
+    opacity: 0.8;
+    font-size:small;
+    font-style: initial;
+    padding: unset;
+    margin-bottom: 10px;
+    text-decoration: line-through;
+}
+
+
+.col3 span{
+    float: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-size: small;
+    opacity: 0.8;
+}
+
+.price2{
+    margin-left: 10px;
+    float: left;
+    font-weight: bolder;
+    color: tomato;
+    font-size:larger
+}
+
+.discount{
+    text-align: center;
+    float: right;
+    padding-top: 6px;
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    margin-right: 20px;
+    background-color: wheat;
+}
+
+body > div.footder > div > footer > div{
+        --bs-gutter-x: -0.5rem;
+}
+
+
+.clr{
+    
+    clear: both;
+}
+
+
