@@ -23,7 +23,9 @@
     padding-left: 20px;
 
 }
-
+.offset-1 {
+    margin-left: 4%;
+}
 
 .logo{
     margin-top: 5px;
